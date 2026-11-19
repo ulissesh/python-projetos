@@ -3,8 +3,8 @@ import mysql.connector;
 conexao = mysql.connector.connect(
        host = 'localhost',
        user = 'aluno',
-       password = '@riobranco',
-       database = 'bdmercado',
+       password = 'SENHA',
+       database = 'BANCO',
        auth_plugin = 'mysql_native_password'
 );
 
